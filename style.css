@@ -137,6 +137,7 @@ section {
 	
 #contacto {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -145,38 +146,32 @@ section {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #F9FAFB;
-
-    border: solid,1px,red;
 }
 
-.contacto-svgs{
-    height: 2rem;
-}
-
-#contacto-info-container{
-    margin-right: 3rem;
-
-    border: solid,1px,red;
-}
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 500px;
+    width: 40rem;
 }
 
 input, textarea {
     padding: 0.5rem;
     border: 1px solid #ddd;
+    border-radius: 0.5rem;
 }
 
 button {
+    width: 10rem;
     padding: 0.5rem;
-    background: #333;
+    background: #D2691E;
     color: white;
+    font-weight: bold;
     border: none;
+    border-radius: 0.5rem;
     cursor: pointer;
+    margin-left: 15rem;
 }
 
 footer {
