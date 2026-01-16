@@ -136,20 +136,27 @@ section {
 }
 	
 #contacto {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #F9FAFB;
+
+    border: solid,1px,red;
 }
 
-#contacto-container{
-    border:solid,1px,red;
+.contacto-svgs{
+    height: 2rem;
 }
 
-#contacto-table{
-    width: 40rem;
+#contacto-info-container{
+    margin-right: 3rem;
+
+    border: solid,1px,red;
 }
 
 form {
