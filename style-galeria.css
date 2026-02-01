@@ -55,8 +55,29 @@ section {
     padding: 0rem;
 }
 
-.vertical{
-  height: 90vh;
+#Una_peque{
+    position:absolute;
+
+    background-color: white;
+    border-radius:1em;
+}
+
+#photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#first_photo{
+    height: 90vh;
+}
+
+.photo{
+  height: 95vh;
+  margin-bottom: 5em;
 }
 
 footer {
