@@ -56,10 +56,20 @@ section {
 }
 
 #Una_peque{
-    position:absolute;
+    position: absolute;
+    top: 4em;
+    left: 1em;
+
+    width: 14em;
 
     background-color: white;
     border-radius:1em;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
 #photo-container{
